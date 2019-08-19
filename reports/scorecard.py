@@ -4,4 +4,5 @@ from rest_framework.response import Response
 
 class SiteRework(APIView):
    def get(self,request):
-       return Response({})
+       progress= 30
+       return Response({'progress':progress,})
